@@ -32,3 +32,117 @@ import { fetchImages } from './services/images';
 import { isSelfCare } from './services/program';
 import { getItem } from './services/storage';
 import { selectIsHome, selectIsInFullScreen } from '@src/redux/slices/statusBarSlice/selectors';
+
+
+import App: FunctionComponent = () => {
+  const dispatch = useDispatch();
+  const {setIsFirebaseAuthInitialized} = authActions;
+  const isHome = useSelector(selectIsHome);
+  const isServerInitialized = useSelector(selectIsServerInitialized);
+  const isInFullScreen = useSelector(selectIsInFullScreen);
+  const {isAuthenticated, user, isFirebaseAuthInitialized} = useSelector(selectAuthState)
+  const isLoading = useSelector(selectIsLoading);
+  const {baseUrl} = useSelector(selectServer)
+  const {setImages} = imageActions;
+  const isI18nInitialized = useI18n();
+  const {changeServer} = useServer();
+
+  const appState = useRef(AppState.currentState);
+
+  const statusBarHeight = getStatusBarHeight();
+  const fallbackToWebView = !!user && !isSelfCare(user);
+  const PERSISTED_SERVER_KEY = 'PERSISTED_SERVER_KEY';
+
+  useTranslations();
+  useIdentifyUser();
+
+  const onAppStateChange = AppState.addEventListener('change', async (nextAppState) => {
+    if (appState.current === 'active' && nextAppState.match(/inactive|background/)) {
+      await platformAnalytics.persistEvents();
+      PlatformAnalyticsModule.startService();
+    } else if (nextAppState === 'active' && appState.current.match(/inactive|background/)) {
+      await platformAnalytics.flush()
+    }
+
+    appState.current = nextAppState
+  })
+
+  useEffect(() => {
+    if (!isLoading && isI18nInitialized && isServerInitialized) SplashScreen.hide();
+
+    if (user?.external) {
+      Braze.changeUser(user.external);
+    }
+
+    return () => {
+      onAppStateChange.remove()
+    }
+  }, [isLoading, isI18nInitialized, isServerInitialized, user])
+
+  // Refetch images on server init/change
+  useEffect(() => {
+    if (!isServerInitialized) return;
+
+    (async () => {
+      const {activity_configs} = (await fetchImages(baseUrl)) || {};
+      dispatch(setImages({activityImages: activity_configs}));
+    })();
+  }, [baseUrl, isServerInitialized, setImages])
+
+  useDidMount(() => {
+    // Activity Initialized Listener
+    const activityInitialized = Doorman.activityInitializedListener((isBeingInitialized: boolean) => {
+      dispatch(activityControllerActions.setActivityIsBeingInitialized(isBeingInitialized))
+    })
+
+    // Initialized Server
+    const initialServerChange = async () => {
+      const cachedServerConfigRaw = await getItem(PERSISTED_SERVER_KEY);
+      const cachedServerConfig = cachedServerConfigRaw && JSON.parse(cachedServerConfigRaw);
+
+      if (cachedServerConfig && isServerConfiguration(cachedServerConfig)) {
+        await changeServer(cachedServerConfig)
+      } else {
+        const defaultServer = getServerConfig(API_URL);
+        await changeServer(defaultServer)
+      }
+      dispatch(serverActions.setServerIsInitialized());
+    }
+
+    // Firebase Auth
+    initialServerChange().then(() => {
+      const onAuthStateChanged = () => {
+        dispatch(setIsFirebaseAuthInitialized(true))
+      }
+
+      firebase.app('AUTH').auth().onAuthStateChanged(onAuthStateChanged)
+    })
+
+    return () => activityInitialized.remove();
+  })
+
+  if (!isI18nInitialized || !isServerInitialized || !isFirebaseAuthInitialized) return null
+
+  return (
+    <>
+      <DialogStack />
+      {isAuthenticated && !fallbackToWebView && !isHome && !isInFullScreen && (
+        <StatusBar statusBarHeight={statusBarHeight} />
+      )}
+
+      {!isAuthenticated ? <AuthStack /> : <RootNavigation fallbackToWebview={fallbackToWebView} />}
+
+      {!isProdBuild && <ServerSelector />}
+      {!isProdBuild && <DebugMenu />}
+
+    </>
+  )
+}
+
+const StatusBar = styled.View<{ statusBarHeight?: number}>`
+  position: absolute;
+  height: ${({ statusBarHeight }) => statusBarHeight && `${statusBarHeight}px`};
+  width: 100%;
+`
+
+export default App;
