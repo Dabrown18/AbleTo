@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { StyleProp, TextStyle, ViewStyle } from 'react-native';
 import Animated from 'react-native-reanimated';
 import { SvgProps } from 'react-native-svg';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 
 import colors from '../colors';
 import Icon from '../Icon/Icon';
