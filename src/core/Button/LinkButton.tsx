@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useCallback } from 'react';
 import { Text, TextProps } from 'react-native';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 
 import { openLink } from '@src/services/helpers';
 

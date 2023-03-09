@@ -1,7 +1,7 @@
 import React, { FunctionComponent, ReactNode } from 'react';
 import { Pressable, PressableProps, View } from 'react-native';
 import Animated, { FadeIn, FadeOut, Layout } from 'react-native-reanimated';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 
 import BodyText from '../Text/BodyText';
 
