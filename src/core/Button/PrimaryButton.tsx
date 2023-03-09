@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useState } from 'react';
 import { Pressable, PressableProps, StyleProp, TextStyle, ViewStyle } from 'react-native';
-import styled from 'styled-components/native';
+import styled from "styled-components";
 
 import { HeaderVariant } from '../Text/HeaderText';
 import BaseButton, { StyledBaseButtonProps } from './BaseButton';
