@@ -2,7 +2,7 @@ import React, { FunctionComponent, useCallback } from 'react';
 import { Pressable, PressableProps, StyleProp, TextStyle, ViewStyle } from 'react-native';
 import { Easing, interpolateColor, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 import { SvgProps } from 'react-native-svg';
-import styled from 'styled-components/native';
+import styled from "styled-components";
 
 import { HeaderVariant } from '../Text/HeaderText';
 import BaseButton, { StyledBaseButtonProps } from './BaseButton';
