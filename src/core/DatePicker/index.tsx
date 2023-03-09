@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-const Int = () => {
+const DatePicker = () => {
   return (
     <View>
-      <Text>Int</Text>
+      <Text>DatePicker</Text>
     </View>
   );
 };
 
-export default Int;
+export default DatePicker;

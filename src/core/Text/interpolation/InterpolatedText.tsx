@@ -72,7 +72,7 @@ const InterpolatedMessage: FunctionComponent<Props> = ({
         const words = text.match(/([^{}]+)|(\{[^}]*\}*)/gim) || [];
 
         words.forEach((word, index) => {
-            if (word === '{targetSelf}') return;
+            if (word === '{targetSelf}') {return;}
 
             if (selfClosingInterpolation.test(word)) {
                 if (cleanInterpolation(word) === 'br') {
@@ -82,10 +82,10 @@ const InterpolatedMessage: FunctionComponent<Props> = ({
 
             // If the current word is an interpolation, add it to the list of styles
             if (openingInterpolation.test(word) || selfClosingInterpolation.test(word))
-                return currentStyles.push(cleanInterpolation(word));
+                {return currentStyles.push(cleanInterpolation(word));}
 
             // If the current word is a closing interpolation, discard it
-            if (closingInterpolation.test(word)) return;
+            if (closingInterpolation.test(word)) {return;}
 
             // If the current word is NOT an interpolation:
             if (!openingInterpolation.test(word)) {
@@ -93,10 +93,10 @@ const InterpolatedMessage: FunctionComponent<Props> = ({
                 // and clear out styles
                 if (currentStyles.length) {
                     currentStyles.forEach((style) => {
-                        if (!currentInterpolation) currentInterpolation = word;
+                        if (!currentInterpolation) {currentInterpolation = word;}
 
                         // We do not return if style contains an icon name.
-                        if (!styleInterpolationValues[style] && !isIcon(style)) return;
+                        if (!styleInterpolationValues[style] && !isIcon(style)) {return;}
 
                         const { component: Component, props = {} } =
                             styleInterpolationValues[style] ?? styleInterpolationValues.icon;
