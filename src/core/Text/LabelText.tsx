@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import { Text, TextProps } from 'react-native';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 
 import colors from '../colors';
 import fonts from '../fonts';
