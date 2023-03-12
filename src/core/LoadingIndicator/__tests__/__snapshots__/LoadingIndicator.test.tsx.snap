@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingIndicator snapshot Centered state 1`] = `
+<View
+  accessibilityLabel="Loading indicator"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 9001,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 200,
+          "flexDirection": "row",
+          "paddingBottom": 18,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 18,
+        },
+      ]
+    }
+  >
+    <View
+      size="sm"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#A6A29E",
+            "borderRadius": 50,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 0,
+            "width": 8,
+          },
+          Object {
+            "backgroundColor": undefined,
+          },
+        ]
+      }
+    />
+    <View
+      size="sm"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#A6A29E",
+            "borderRadius": 50,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 0,
+            "width": 8,
+          },
+          Object {
+            "backgroundColor": undefined,
+          },
+        ]
+      }
+    />
+    <View
+      size="sm"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#A6A29E",
+            "borderRadius": 50,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 0,
+            "width": 8,
+          },
+          Object {
+            "backgroundColor": undefined,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`LoadingIndicator snapshot FullScreen state 1`] = `
+<View
+  accessibilityLabel="Loading indicator"
+  fullScreen={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#5e5c5966",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 9001,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 200,
+          "flexDirection": "row",
+          "paddingBottom": 18,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 18,
+        },
+      ]
+    }
+  >
+    <View
+      size="sm"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#A6A29E",
+            "borderRadius": 50,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 0,
+            "width": 8,
+          },
+          Object {
+            "backgroundColor": undefined,
+          },
+        ]
+      }
+    />
+    <View
+      size="sm"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#A6A29E",
+            "borderRadius": 50,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 0,
+            "width": 8,
+          },
+          Object {
+            "backgroundColor": undefined,
+          },
+        ]
+      }
+    />
+    <View
+      size="sm"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#A6A29E",
+            "borderRadius": 50,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 0,
+            "width": 8,
+          },
+          Object {
+            "backgroundColor": undefined,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`LoadingIndicator snapshot Normal state 1`] = `
+<View
+  accessibilityLabel="Loading indicator"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 9001,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 200,
+          "flexDirection": "row",
+          "paddingBottom": 18,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 18,
+        },
+      ]
+    }
+  >
+    <View
+      size="sm"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#A6A29E",
+            "borderRadius": 50,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 0,
+            "width": 8,
+          },
+          Object {
+            "backgroundColor": undefined,
+          },
+        ]
+      }
+    />
+    <View
+      size="sm"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#A6A29E",
+            "borderRadius": 50,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 0,
+            "width": 8,
+          },
+          Object {
+            "backgroundColor": undefined,
+          },
+        ]
+      }
+    />
+    <View
+      size="sm"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#A6A29E",
+            "borderRadius": 50,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 0,
+            "width": 8,
+          },
+          Object {
+            "backgroundColor": undefined,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;

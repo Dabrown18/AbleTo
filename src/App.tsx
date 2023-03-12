@@ -5,7 +5,7 @@ import Braze from 'react-native-appboy-sdk';
 import { API_URL } from 'react-native-dotenv';
 import SplashScreen from 'react-native-splash-screen';
 import { useDispatch, useSelector } from 'react-redux';
-import styled from 'styled-components/native';
+import styled from 'styled-components'
 
 import DebugMenu from './components/DebugMenu';
 import DialogStack from './components/dialogs/DialogStack';

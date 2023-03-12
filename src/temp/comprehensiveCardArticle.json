@@ -1,0 +1,918 @@
+{
+    "article": {
+      "id": "2oZTWcZPoLaNgWWG2aefi4",
+      "contentType": "article",
+      "sections": [
+        {
+          "contentType": "section",
+          "items": [
+            {
+              "contentType": "heading",
+              "text": "All Half Width Variations With Durations",
+              "variant": "h4"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Listen Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "listen",
+              "duration": 10
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Read Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "read",
+              "duration": 3
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Collection Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "collection",
+              "duration": 9
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Practice Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "practice",
+              "duration": 6
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Track Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "track",
+              "duration": 5
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Breathe Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "breathe",
+              "duration": 8
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Watch Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "watch",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Meditate Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "meditate",
+              "duration": 4
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Check In Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "checkIn",
+              "duration": 2
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Story Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "story",
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "contentType": "section",
+          "items": [
+            {
+              "contentType": "heading",
+              "text": "All Half Width Variations Without Durations",
+              "variant": "h4"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Listen Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "listen"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Read Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "read"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Collection Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "collection"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Practice Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "practice"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Track Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "track"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Breathe Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "breathe"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Watch Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "watch"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Meditate Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "meditate"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Check In Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "checkIn"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Story Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "type": "story"
+            }
+          ]
+        },
+        {
+          "contentType": "section",
+          "items": [
+            {
+              "contentType": "heading",
+              "text": "Half Width Variations Misc",
+              "variant": "h4"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Card - no Type",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth",
+              "duration": 10
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Card - no Type or Duration",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "halfWidth"
+            }
+          ]
+        },
+        {
+          "contentType": "section",
+          "items": [
+            {
+              "contentType": "heading",
+              "text": "All Full Width Short Variations With Durations",
+              "variant": "h4"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Listen Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "listen",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Read Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "read",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Collection Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "collection",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Practice Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "practice",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Track Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "track",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Breathe Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "breathe",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Watch Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "watch",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Meditate Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "meditate",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Check In Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "checkIn",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Story Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "story",
+              "duration": 7
+            }
+          ]
+        },
+        {
+          "contentType": "section",
+          "items": [
+            {
+              "contentType": "heading",
+              "text": "All Full Width Short Variations Without Durations",
+              "variant": "h4"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Listen Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "listen"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Read Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "read"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Collection Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "collection"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Practice Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "practice"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Track Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "track"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Breathe Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "breathe"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Watch Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "watch"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Meditate Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "meditate"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Check In Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "checkIn"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Story Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "type": "story"
+            }
+          ]
+        },
+        {
+          "contentType": "section",
+          "items": [
+            {
+              "contentType": "heading",
+              "text": "Full Width Short Variations Misc",
+              "variant": "h4"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Card - no Type",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort",
+              "duration": 10
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Card - no Type or Duration",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthShort"
+            }
+          ]
+        },
+        {
+          "contentType": "section",
+          "items": [
+            {
+              "contentType": "heading",
+              "text": "All Full Width Featured Variations With Durations",
+              "variant": "h4"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Listen Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "listen",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Read Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "read",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Collection Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "collection",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Practice Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "practice",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Track Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "track",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Breathe Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "breathe",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Watch Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "watch",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Meditate Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "meditate",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Check In Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "checkIn",
+              "duration": 7
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Story Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "story",
+              "duration": 7
+            }
+          ]
+        },
+        {
+          "contentType": "section",
+          "items": [
+            {
+              "contentType": "heading",
+              "text": "All Full Width Featured Variations Without Durations",
+              "variant": "h4"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Listen Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "listen"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Read Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "read"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Collection Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "collection"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Practice Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "practice"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Track Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "track"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Breathe Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "breathe"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Watch Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "watch"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Meditate Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "meditate"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Check In Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "checkIn"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Story Card",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "type": "story"
+            }
+          ]
+        },
+        {
+          "contentType": "section",
+          "items": [
+            {
+              "contentType": "heading",
+              "text": "Full Width Featured Variations Misc",
+              "variant": "h4"
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Card - no Type",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured",
+              "duration": 10
+            },
+            {
+              "contentType": "card",
+              "heading": "Sample Card - no Type or Duration",
+              "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+              "link": {
+                "contentType": "activityLink",
+                "slug": "controlled_breathing",
+                "programActivityId": "gad_controlled_breathing"
+              },
+              "size": "fullWidthFeatured"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

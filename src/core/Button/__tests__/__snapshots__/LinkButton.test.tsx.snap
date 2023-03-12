@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkButton snapshot 1`] = `
+<Text
+  accessibilityLabel="Click me!"
+  accessibilityRole="link"
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "color": "#2B7D82",
+        "fontFamily": "fakt_pro_normal",
+        "fontSize": 16,
+        "fontWeight": "400",
+        "lineHeight": 24,
+        "textDecorationLine": "underline",
+      },
+    ]
+  }
+>
+  Click me!
+</Text>
+`;

@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "651022019780",
+    "firebase_url": "https://ableto-apps-dev.firebaseio.com",
+    "project_id": "ableto-apps-dev",
+    "storage_bucket": "ableto-apps-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651022019780:android:c9bc0db57c5434ac8e6d91",
+        "android_client_info": {
+          "package_name": "com.joyable.joyableApp.alpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651022019780-382h7b3icqbtbevdto1h6aiglo4ihmes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYxbtDraogVejLG57mVo_JPUB8tUlLlNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651022019780-382h7b3icqbtbevdto1h6aiglo4ihmes.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "651022019780-f0i1hchpdckd9plp1n0jgs5egm4ru53e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.joyable.JoyableApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651022019780:android:6e43ad30769f91e88e6d91",
+        "android_client_info": {
+          "package_name": "com.joyable.joyableApp.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651022019780-382h7b3icqbtbevdto1h6aiglo4ihmes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYxbtDraogVejLG57mVo_JPUB8tUlLlNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651022019780-382h7b3icqbtbevdto1h6aiglo4ihmes.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "651022019780-f0i1hchpdckd9plp1n0jgs5egm4ru53e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.joyable.JoyableApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

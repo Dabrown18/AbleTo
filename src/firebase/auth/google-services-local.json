@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "799410172190",
+    "project_id": "consumer-sfd-pod-sandbox",
+    "storage_bucket": "consumer-sfd-pod-sandbox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799410172190:android:5bfb3fe9df8ee61710190f",
+        "android_client_info": {
+          "package_name": "com.joyable.joyableApp.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799410172190-prrps9l085t2smhfjj5mocjdbb281sog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXeut07cM4d1v13eJTAnaxjMHQEsFwWEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799410172190-prrps9l085t2smhfjj5mocjdbb281sog.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "799410172190-54c1h10pjq2nh5772dm6ln8srcfeuhft.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.joyable.JoyableApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

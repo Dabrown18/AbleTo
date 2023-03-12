@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "121292996004",
+    "firebase_url": "https://joyable-firebase-production.firebaseio.com",
+    "project_id": "joyable-firebase-production",
+    "storage_bucket": "joyable-firebase-production.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121292996004:android:af15b99ecffd8b4d",
+        "android_client_info": {
+          "package_name": "com.joyable.joyableApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121292996004-40t564d97t42o15sau1krf7i77ohrkqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJyEfWfJZUv3UaEtjs-zCz3gZQIn8BKw8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

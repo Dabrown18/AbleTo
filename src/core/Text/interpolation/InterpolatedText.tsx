@@ -1,151 +1,97 @@
-import React, { ComponentType, FunctionComponent, ReactNode, useMemo } from 'react';
+import React, { FunctionComponent, useMemo } from 'react';
 import { TextProps } from 'react-native';
+import styled from 'styled-components';
 
-type ComponentProp = {
-    component: ComponentType | FunctionComponent<any>;
-    // TextProps and any bonus additions for
-    // custom functional components that are passed
-    props?: TextProps & { [name: string]: any };
-};
+import LinkButton from '../../Button/LinkButton';
+import colors, { Color } from '../../colors';
+import InterpolatedMessage from './InterpolatedMessage';
+import Icon from '@src/core/Icon/Icon';
+import { isDebug } from '@src/services/helpers';
+import Logger from '@src/services/logger';
 
-type Props = {
-    text: string;
-    /** Key Value Pairs of stylistic interpolation keys,
-     * with {component, props} object values used to wrap every
-     * different stylistic interpolation, based on the key
-     * @usage
-     * With the following translation 'This is {{#bold}}BOLD!{{/bold}}
-     *
-     * <InterpolatedMessage styleInterpolationValues={{bold: { component: SomeBoldText } }} />
-     *
-     * @returns
-     * 'This is <b>BOLD!</b>'
-     *
-     * Where 'BOLD!' will be styled by the `SomeBoldText` component
-     */
-    values?: Record<string, ComponentProp>;
-    /** Wrapper for the entire text. Defaults to Body 1 */
-    WrapperComponent: ComponentType;
-    wrapperComponentProps?: TextProps & { [name: string]: any };
-};
+type ComponentType = { component: React.ComponentType; componentProps: TextProps & { [name: string]: any } };
+type InternalComponentType = { component: React.ComponentType; props: TextProps & { [name: string]: any } };
 
-/** A component used for wrapping text
- * in stylistic interpolation mustache brackets - {{#gray800}}
+type Props = ComponentType & TextProps;
+
+/**
  *
- * Supports stylistic interpolation,
- * and custom text wrappers
+ * Component is meant for internal use, by
+ * other exposed 'Text' components
  *
- * @usage
- * Can be used as an alternative of `t`
- *
- * `<InterpolatedMessage id="log_in.welcome_back" />`
- *
- * instead of
- *
- * `<BodyText>{t('log_in.welcome_back')}</BodyText>`
+ * The InterpolatedText will take any text child,
+ * render it inside of the passed 'component'
+ * and take care of any stylistic interpolation
  *
  */
-const InterpolatedMessage: FunctionComponent<Props> = ({
-    values: styleInterpolationValues = {},
-    WrapperComponent,
-    wrapperComponentProps = {},
-    text,
-}) => {
-    const row = useMemo(() => {
-        const nodes: ReactNode[] = [];
-        let currentStyles: string[] = [];
-        let currentInterpolation: ReactNode = null;
+const InterpolatedText: FunctionComponent<Props> = ({ children, component, componentProps: props, ...rest }) => {
+    const FontSemiBold = styled(component)`
+        font-family: ${({ theme }) => theme.fonts.FAKT_PRO_MEDIUM};
+        font-weight: 500;
+    `;
 
-        const openingInterpolation = new RegExp(/{{#\w+}}/im);
-        const closingInterpolation = new RegExp(/{{\/\w+}}/im);
-        const selfClosingInterpolation = new RegExp(/\{{{.*\}}}/);
+    const Bold = styled(component)`
+        font-weight: bold;
+    `;
 
-        const cleanInterpolation = (str: string) => str.replace(/\{|#|\}|\//gim, '');
+    const Italic = styled(component)`
+        font-style: italic;
+    `;
 
-        const isIcon = (style: string) => {
-            // Most icons contain 'Icon' in the name but we have some cases
-            // that this is not present so we check by the specific icon name.
-            const iconNames = ['Icon', 'volumeUpOutlined'];
-            return !!iconNames.find((icon) => style.includes(icon));
+    const Header4Big = styled(component)`
+        font-family: ${({ theme }) => theme.fonts.FAKT_PRO_NORMAL};
+        color: ${({ theme }) => theme.colors.gray800};
+        font-size: 20px;
+        line-height: 28px;
+    `;
+
+    // Creates a Key Value Pair that interpolates
+    // each color from our Palette
+    const colorValues = Object.keys(colors).reduce((acc: Record<string, InternalComponentType>, curr) => {
+        acc[curr] = {
+            component,
+            props: {
+                ...props,
+                style: { ...(props.style as object), color: colors[curr as Color] },
+            },
         };
 
-        const words = text.match(/([^{}]+)|(\{[^}]*\}*)/gim) || [];
+        return acc;
+    }, {});
 
-        words.forEach((word, index) => {
-            if (word === '{targetSelf}') {return;}
+    const text = useMemo(() => {
+        if (typeof children === 'string') {return children;}
+        if (typeof children === 'number') {return children.toString();}
+        if (Array.isArray(children)) {return children.join('');}
 
-            if (selfClosingInterpolation.test(word)) {
-                if (cleanInterpolation(word) === 'br') {
-                    word = '\n';
-                }
-            }
+        // Our Text components are always used together
+        // with i18n translations, which return either a string
+        // or an array. If usage is incorrect, skip the text
+        // and alert if running in DEBUG mode
+        if (isDebug) {
+            Logger.error(
+                new Error('Incorrect Text usage. Expected a string or array child. Are you passing a translation?')
+            );
+        }
+        return '';
+    }, [children]);
 
-            // If the current word is an interpolation, add it to the list of styles
-            if (openingInterpolation.test(word) || selfClosingInterpolation.test(word))
-                {return currentStyles.push(cleanInterpolation(word));}
-
-            // If the current word is a closing interpolation, discard it
-            if (closingInterpolation.test(word)) {return;}
-
-            // If the current word is NOT an interpolation:
-            if (!openingInterpolation.test(word)) {
-                // If styles exist, add them
-                // and clear out styles
-                if (currentStyles.length) {
-                    currentStyles.forEach((style) => {
-                        if (!currentInterpolation) {currentInterpolation = word;}
-
-                        // We do not return if style contains an icon name.
-                        if (!styleInterpolationValues[style] && !isIcon(style)) {return;}
-
-                        const { component: Component, props = {} } =
-                            styleInterpolationValues[style] ?? styleInterpolationValues.icon;
-
-                        if (style === 'a') {
-                            // Links have a special format, which we can use
-                            // to extract both the title and link
-                            // ex: [help@ableto.com](mailto:help@ableto.com)
-                            const [title, link] = word.split(']');
-
-                            // Removes the leading [ from the title
-                            props.title = `${title.replace('[', '')} `;
-
-                            // Removes the ( ) from the link
-                            props.link = link.replace(/\(|\)/gi, '');
-                        }
-
-                        if (isIcon(style)) {
-                            props.icon = style;
-                            props.style = { marginRight: 8 };
-                        }
-
-                        currentInterpolation = (
-                            <Component key={index} {...props}>
-                                {currentInterpolation}
-                            </Component>
-                        );
-                    });
-
-                    currentStyles = [];
-
-                    nodes.push(currentInterpolation);
-                    currentInterpolation = null;
-                    return;
-                }
-
-                // If styles do not exist, add the word to nodes
-
-                return nodes.push(word);
-            }
-
-            return;
-        });
-
-        return nodes;
-        // return nodes;
-    }, [text, styleInterpolationValues]);
-
-    return <WrapperComponent {...wrapperComponentProps}>{row}</WrapperComponent>;
+    return (
+        <InterpolatedMessage
+            text={text}
+            WrapperComponent={component}
+            wrapperComponentProps={{ ...props, ...rest }}
+            values={{
+                a: { component: LinkButton, props },
+                fontSemiBold: { component: FontSemiBold, props },
+                bold: { component: Bold, props },
+                italic: { component: Italic, props },
+                icon: { component: Icon, props },
+                header4Big: { component: Header4Big, props },
+                ...colorValues,
+            }}
+        />
+    );
 };
 
-export default InterpolatedMessage;
+export default InterpolatedText;

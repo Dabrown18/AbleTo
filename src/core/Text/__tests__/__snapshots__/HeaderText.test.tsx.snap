@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderText snapshots Header 1 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#2D2926",
+        "fontFamily": "guardian_egyp_light",
+        "fontSize": 36,
+        "fontWeight": "300",
+        "lineHeight": 40,
+      },
+    ]
+  }
+  variant="h1"
+>
+  Hello there!
+</Text>
+`;
+
+exports[`HeaderText snapshots Header 2 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#2D2926",
+        "fontFamily": "guardian_egyp_light",
+        "fontSize": 30,
+        "fontWeight": "300",
+        "lineHeight": 39,
+      },
+    ]
+  }
+  variant="h2"
+>
+  Hello there!
+</Text>
+`;
+
+exports[`HeaderText snapshots Header 3 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#2D2926",
+        "fontFamily": "guardian_egyp_light",
+        "fontSize": 24,
+        "fontWeight": "300",
+        "lineHeight": 34,
+      },
+    ]
+  }
+  variant="h3"
+>
+  Hello there!
+</Text>
+`;
+
+exports[`HeaderText snapshots Header 4 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#4B4845",
+        "fontFamily": "fakt_pro_medium",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
+      },
+    ]
+  }
+  variant="h4"
+>
+  Hello there!
+</Text>
+`;
+
+exports[`HeaderText snapshots Header 5 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#4B4845",
+        "fontFamily": "fakt_pro_medium",
+        "fontSize": 14,
+        "fontWeight": "500",
+        "lineHeight": 21,
+      },
+    ]
+  }
+  variant="h5"
+>
+  Hello there!
+</Text>
+`;
+
+exports[`HeaderText snapshots Header 6 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#4B4845",
+        "fontFamily": "fakt_pro_medium",
+        "fontSize": 12,
+        "fontWeight": "500",
+        "lineHeight": 16,
+      },
+    ]
+  }
+  variant="h6"
+>
+  Hello there!
+</Text>
+`;

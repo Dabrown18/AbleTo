@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1059913762851",
+    "firebase_url": "https://ableto-apps-prod.firebaseio.com",
+    "project_id": "ableto-apps-prod",
+    "storage_bucket": "ableto-apps-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059913762851:android:ffab3a12ef8b77d7ac8996",
+        "android_client_info": {
+          "package_name": "com.joyable.JoyableApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059913762851-67i1hho4mj0nm8o2qbsr9itoerp4ehh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn0HjrvStf1aST7UkKuOOew9s8ESaoIUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059913762851-67i1hho4mj0nm8o2qbsr9itoerp4ehh9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1059913762851-pbqr8825tgffsvvvacd5i3l89bdm701e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.joyable.JoyableApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

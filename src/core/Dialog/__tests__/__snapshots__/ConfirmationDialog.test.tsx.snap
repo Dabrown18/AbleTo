@@ -1,0 +1,665 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomDialog Snapshots Dismissable 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#2D292680",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+    testID="Dismissable"
+  >
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 12,
+            "marginBottom": 0,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "marginTop": 0,
+            "paddingBottom": 20,
+            "paddingLeft": 18,
+            "paddingRight": 18,
+            "paddingTop": 20,
+            "width": "auto",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "justifyContent": "center",
+              "position": "relative",
+            },
+          ]
+        }
+      >
+        <View
+          hasCloseButton={false}
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+                "marginTop": 0,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2D2926",
+                  "fontFamily": "guardian_egyp_light",
+                  "fontSize": 24,
+                  "fontWeight": "300",
+                  "lineHeight": 34,
+                },
+              ]
+            }
+            variant="h3"
+          >
+            Title
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 18,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#4B4845",
+                "fontFamily": "fakt_pro_normal",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+          variant="regular"
+        >
+          Body
+        </Text>
+      </View>
+      <View>
+        <View
+          buttonDirection="column"
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+              },
+            ]
+          }
+        >
+          <View
+            buttonDirection="column"
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexBasis": "auto",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <View
+                accessibilityLabel="Yes"
+                accessibilityRole="button"
+                accessibilityState={
+                  Object {
+                    "disabled": false,
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "borderRadius": 100,
+                      "borderWidth": 1.5,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "minWidth": "100%",
+                      "paddingBottom": 12,
+                      "paddingLeft": 24,
+                      "paddingRight": 24,
+                      "paddingTop": 12,
+                    },
+                    Object {
+                      "backgroundColor": "#85356F",
+                      "borderColor": "#85356F",
+                    },
+                    Object {
+                      "elevation": 0,
+                    },
+                    undefined,
+                  ]
+                }
+                wide={true}
+              >
+                <Text
+                  importantForAccessibility="no-hide-descendants"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#4B4845",
+                        "fontFamily": "fakt_pro_medium",
+                        "fontSize": 16,
+                        "fontWeight": "500",
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "flexShrink": 1,
+                      },
+                      undefined,
+                      Object {
+                        "color": "#fff",
+                      },
+                    ]
+                  }
+                  variant="h4"
+                >
+                  Yes
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            buttonDirection="column"
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexBasis": "auto",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <View
+                accessibilityLabel="No"
+                accessibilityRole="button"
+                accessibilityState={
+                  Object {
+                    "disabled": false,
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "borderRadius": 100,
+                      "borderWidth": 1.5,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "minWidth": "100%",
+                      "paddingBottom": 12,
+                      "paddingLeft": 24,
+                      "paddingRight": 24,
+                      "paddingTop": 12,
+                    },
+                    Object {
+                      "backgroundColor": "#F3E8F000",
+                      "borderColor": "transparent",
+                    },
+                    Array [
+                      Object {
+                        "marginTop": 20,
+                      },
+                    ],
+                    Object {
+                      "backgroundColor": undefined,
+                    },
+                  ]
+                }
+                wide={true}
+              >
+                <Text
+                  importantForAccessibility="no-hide-descendants"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#4B4845",
+                        "fontFamily": "fakt_pro_medium",
+                        "fontSize": 16,
+                        "fontWeight": "500",
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "flexShrink": 1,
+                      },
+                      undefined,
+                      Object {
+                        "color": "#85356F",
+                      },
+                    ]
+                  }
+                  variant="h4"
+                >
+                  No
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`CustomDialog Snapshots Not Dismissable 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#2D292680",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+    testID="Not Dismissable"
+  >
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 12,
+            "marginBottom": 0,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "marginTop": 0,
+            "paddingBottom": 20,
+            "paddingLeft": 18,
+            "paddingRight": 18,
+            "paddingTop": 20,
+            "width": "auto",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "justifyContent": "center",
+              "position": "relative",
+            },
+          ]
+        }
+      >
+        <View
+          hasCloseButton={false}
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+                "marginTop": 0,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2D2926",
+                  "fontFamily": "guardian_egyp_light",
+                  "fontSize": 24,
+                  "fontWeight": "300",
+                  "lineHeight": 34,
+                },
+              ]
+            }
+            variant="h3"
+          >
+            Title
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 18,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#4B4845",
+                "fontFamily": "fakt_pro_normal",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+          variant="regular"
+        >
+          Body
+        </Text>
+      </View>
+      <View>
+        <View
+          buttonDirection="column"
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+              },
+            ]
+          }
+        >
+          <View
+            buttonDirection="column"
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexBasis": "auto",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <View
+                accessibilityLabel="Yes"
+                accessibilityRole="button"
+                accessibilityState={
+                  Object {
+                    "disabled": false,
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "borderRadius": 100,
+                      "borderWidth": 1.5,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "minWidth": "100%",
+                      "paddingBottom": 12,
+                      "paddingLeft": 24,
+                      "paddingRight": 24,
+                      "paddingTop": 12,
+                    },
+                    Object {
+                      "backgroundColor": "#85356F",
+                      "borderColor": "#85356F",
+                    },
+                    Object {
+                      "elevation": 0,
+                    },
+                    undefined,
+                  ]
+                }
+                wide={true}
+              >
+                <Text
+                  importantForAccessibility="no-hide-descendants"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#4B4845",
+                        "fontFamily": "fakt_pro_medium",
+                        "fontSize": 16,
+                        "fontWeight": "500",
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "flexShrink": 1,
+                      },
+                      undefined,
+                      Object {
+                        "color": "#fff",
+                      },
+                    ]
+                  }
+                  variant="h4"
+                >
+                  Yes
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            buttonDirection="column"
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexBasis": "auto",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <View
+                accessibilityLabel="No"
+                accessibilityRole="button"
+                accessibilityState={
+                  Object {
+                    "disabled": false,
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "borderRadius": 100,
+                      "borderWidth": 1.5,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "minWidth": "100%",
+                      "paddingBottom": 12,
+                      "paddingLeft": 24,
+                      "paddingRight": 24,
+                      "paddingTop": 12,
+                    },
+                    Object {
+                      "backgroundColor": "#F3E8F000",
+                      "borderColor": "transparent",
+                    },
+                    Array [
+                      Object {
+                        "marginTop": 20,
+                      },
+                    ],
+                    Object {
+                      "backgroundColor": undefined,
+                    },
+                  ]
+                }
+                wide={true}
+              >
+                <Text
+                  importantForAccessibility="no-hide-descendants"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#4B4845",
+                        "fontFamily": "fakt_pro_medium",
+                        "fontSize": 16,
+                        "fontWeight": "500",
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "flexShrink": 1,
+                      },
+                      undefined,
+                      Object {
+                        "color": "#85356F",
+                      },
+                    ]
+                  }
+                  variant="h4"
+                >
+                  No
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

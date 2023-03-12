@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimaryButton Snapshots Disabled state 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    accessibilityLabel="Click me!"
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "borderRadius": 100,
+          "borderWidth": 1.5,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minWidth": "auto",
+          "paddingBottom": 12,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "paddingTop": 12,
+        },
+        Object {
+          "backgroundColor": "#EFEFEF",
+          "borderColor": "#E1E1E1",
+        },
+        Object {
+          "elevation": 0,
+        },
+        undefined,
+      ]
+    }
+    wide={false}
+  >
+    <Text
+      importantForAccessibility="no-hide-descendants"
+      style={
+        Array [
+          Object {
+            "color": "#4B4845",
+            "fontFamily": "fakt_pro_medium",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
+          },
+          Object {
+            "flexShrink": 1,
+          },
+          undefined,
+          Object {
+            "color": "#C9C7C5",
+          },
+        ]
+      }
+      variant="h4"
+    >
+      Click me!
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PrimaryButton Snapshots Normal state 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    accessibilityLabel="Click me!"
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "borderRadius": 100,
+          "borderWidth": 1.5,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minWidth": "auto",
+          "paddingBottom": 12,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "paddingTop": 12,
+        },
+        Object {
+          "backgroundColor": "#85356F",
+          "borderColor": "#85356F",
+        },
+        Object {
+          "elevation": 0,
+        },
+        undefined,
+      ]
+    }
+    wide={false}
+  >
+    <Text
+      importantForAccessibility="no-hide-descendants"
+      style={
+        Array [
+          Object {
+            "color": "#4B4845",
+            "fontFamily": "fakt_pro_medium",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
+          },
+          Object {
+            "flexShrink": 1,
+          },
+          undefined,
+          Object {
+            "color": "#fff",
+          },
+        ]
+      }
+      variant="h4"
+    >
+      Click me!
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PrimaryButton Snapshots Wide variant 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    accessibilityLabel="Click me!"
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "borderRadius": 100,
+          "borderWidth": 1.5,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minWidth": "100%",
+          "paddingBottom": 12,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "paddingTop": 12,
+        },
+        Object {
+          "backgroundColor": "#85356F",
+          "borderColor": "#85356F",
+        },
+        Object {
+          "elevation": 0,
+        },
+        undefined,
+      ]
+    }
+    wide={true}
+  >
+    <Text
+      importantForAccessibility="no-hide-descendants"
+      style={
+        Array [
+          Object {
+            "color": "#4B4845",
+            "fontFamily": "fakt_pro_medium",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
+          },
+          Object {
+            "flexShrink": 1,
+          },
+          undefined,
+          Object {
+            "color": "#fff",
+          },
+        ]
+      }
+      variant="h4"
+    >
+      Click me!
+    </Text>
+  </View>
+</View>
+`;

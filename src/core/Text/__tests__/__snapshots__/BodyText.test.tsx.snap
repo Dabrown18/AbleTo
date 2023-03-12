@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BodyText snapshots Body 1 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#4B4845",
+        "fontFamily": "fakt_pro_normal",
+        "fontSize": 16,
+        "fontWeight": "400",
+        "lineHeight": 24,
+      },
+    ]
+  }
+  variant="regular"
+>
+  Hello there!
+</Text>
+`;
+
+exports[`BodyText snapshots Body 2 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#4B4845",
+        "fontFamily": "fakt_pro_normal",
+        "fontSize": 14,
+        "fontWeight": "400",
+        "lineHeight": 21,
+      },
+    ]
+  }
+  variant="sm"
+>
+  Hello there!
+</Text>
+`;
+
+exports[`BodyText snapshots Body 3 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#4B4845",
+        "fontFamily": "fakt_pro_normal",
+        "fontSize": 12,
+        "fontWeight": "400",
+        "lineHeight": 16,
+      },
+    ]
+  }
+  variant="xs"
+>
+  Hello there!
+</Text>
+`;

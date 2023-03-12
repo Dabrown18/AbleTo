@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput snapshot 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgb(231, 231, 231)",
+          "borderTopLeftRadius": 4,
+          "borderTopRightRadius": 4,
+        },
+        Object {
+          "backgroundColor": "#fff",
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.26)",
+          "bottom": 0,
+          "height": 2,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "transform": Array [
+            Object {
+              "scaleY": 0.5,
+            },
+          ],
+          "zIndex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "paddingBottom": 0,
+            "paddingTop": 0,
+          },
+          Object {
+            "minHeight": 52,
+          },
+        ]
+      }
+    >
+      <View
+        collapsable={false}
+        pointerEvents="none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "opacity": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+            "zIndex": 3,
+          }
+        }
+      >
+        <Text
+          collapsable={false}
+          numberOfLines={1}
+          onLayout={[Function]}
+          style={
+            Object {
+              "color": "#6200ee",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": undefined,
+              "left": 0,
+              "opacity": 0,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "position": "absolute",
+              "textAlign": "left",
+              "top": 28,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": 0,
+                },
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "writingDirection": "ltr",
+            }
+          }
+        >
+          Type in me!
+        </Text>
+        <Text
+          collapsable={false}
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#4B4845",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": undefined,
+              "left": 0,
+              "opacity": 0,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "position": "absolute",
+              "textAlign": "left",
+              "top": 28,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": 0,
+                },
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "writingDirection": "ltr",
+            }
+          }
+        >
+          Type in me!
+        </Text>
+      </View>
+      <TextInput
+        accessibilityLabel="Type in me!"
+        activeOutlineColor="#85356F"
+        editable={true}
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        outlineColor="#E1E1E1"
+        placeholder=""
+        placeholderTextColor="#4B4845"
+        selectionColor="#6200ee"
+        style={
+          Array [
+            Object {
+              "flexGrow": 1,
+              "margin": 0,
+            },
+            Object {
+              "paddingLeft": 12,
+              "paddingRight": 12,
+            },
+            Object {
+              "height": 52,
+            },
+            Object {
+              "paddingBottom": 2,
+              "paddingTop": 22,
+            },
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": undefined,
+              "textAlign": "left",
+              "textAlignVertical": "center",
+            },
+            false,
+            Array [
+              Object {},
+            ],
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+  </View>,
+  <Text
+    accessibilityLiveRegion="assertive"
+    collapsable={false}
+    onLayout={[Function]}
+    style={
+      Object {
+        "color": "#B00020",
+        "fontFamily": "System",
+        "fontSize": 12,
+        "fontWeight": "400",
+        "opacity": 0,
+        "paddingHorizontal": 12,
+        "paddingVertical": 4,
+        "textAlign": "left",
+        "transform": Array [],
+        "writingDirection": "ltr",
+      }
+    }
+  />,
+]
+`;

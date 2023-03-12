@@ -1,0 +1,154 @@
+{
+    "article": {
+        "id": "2oZTWcZPoLaNgWWG2fr1F6",
+        "contentType": "article",
+        "sections": [
+            {
+                "contentType": "section",
+                "items": [
+                    {
+                        "contentType": "heading",
+                        "text": "Here we have 3 different anchors",
+                        "variant": "h3"
+                    },
+                    {
+                        "contentType": "body",
+                        "text": "The first one is an appViewLink. We can expect it to be broken for now. Following it we have an article link, as well as an activity link, which should both work!"
+                    },
+                    {
+                        "contentType": "anchor",
+                        "name": "Sample Favorite Anchor",
+                        "text": "Your favorites",
+                        "icon": "favorite",
+                        "link": {
+                            "contentType": "appViewLink",
+                            "path": "/favorites"
+                        }
+                    },
+                    {
+                        "contentType": "anchor",
+                        "name": "Sample Circle Check Anchor",
+                        "text": "An article",
+                        "icon": "circleCheck",
+                        "link": {
+                            "contentType": "articleLink",
+                            "articleId": "1INK0UqcJRV5SZZN6VFMaz"
+                        }
+                    },
+                    {
+                        "contentType": "anchor",
+                        "name": "Sample Circle Check Anchor",
+                        "text": "Mood Tracking",
+                        "icon": "circleCheck",
+                        "link": {
+                            "contentType": "activityLink",
+                            "slug": "mood_tracking_mood_rating"
+                        }
+                    },
+                    {
+                        "contentType": "anchor",
+                        "name": "Sample Circle Check Anchor",
+                        "text": "WebView Activity",
+                        "icon": "circleCheck",
+                        "link": {
+                            "contentType": "activityLink",
+                            "slug": "controlled_breathing"
+                        }
+                    }
+                ]
+            },
+            {
+                "contentType": "section",
+                "items": [
+                    {
+                        "contentType": "heading",
+                        "text": "Heading",
+                        "variant": "h4"
+                    },
+                    {
+                        "contentType": "body",
+                        "text": "Under these 2 cards we have another hidden Anchor, in the form of a text link! It should open up an external URL in your default browser. Give it a try!"
+                    },
+                    {
+                        "contentType": "card",
+                        "heading": "Sample Activity Card (with Program Activity Id)",
+                        "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+                        "link": {
+                            "contentType": "activityLink",
+                            "slug": "controlled_breathing",
+                            "programActivityId": "gad_controlled_breathing"
+                        },
+                        "size": "halfWidth",
+                        "type": "breathe",
+                        "duration": 5
+                    },
+                    {
+                        "contentType": "card",
+                        "heading": "Sample Activity Card (without Program Activity Id",
+                        "coverImage": "//images.ctfassets.net/seksdoojdo49/7xdTApw9wMARsA7mMmx2y0/cc35595766bf67fd03b87168d613a0a0/AbleTo_-_6_v2_1.png",
+                        "link": {
+                            "contentType": "activityLink",
+                            "slug": "controlled_breathing"
+                        },
+                        "size": "halfWidth",
+                        "type": "breathe",
+                        "duration": 5
+                    },
+                    {
+                        "contentType": "anchor",
+                        "name": "Sample Anchor",
+                        "text": "Read More >",
+                        "link": {
+                            "contentType": "urlLink",
+                            "url": "https://www.ableto.com/provider-corner/a-path-to-calm-6-simple-ways-to-practice-mindfulness/"
+                        }
+                    },
+                    {
+                        "contentType": "anchor",
+                        "name": "Sample Anchor",
+                        "text": "Read More >",
+                        "link": {
+                            "contentType": "urlLink",
+                            "url": "https://www.ableto.com/provider-corner/a-path-to-calm-6-simple-ways-to-practice-mindfulness/"
+                        }
+                    }
+                ]
+            },
+            {
+                "contentType": "section",
+                "items": [
+                    {
+                        "contentType": "heading",
+                        "text": "Heading H1",
+                        "variant": "h1"
+                    },
+                    {
+                        "contentType": "heading",
+                        "text": "Heading H2",
+                        "variant": "h2"
+                    },
+                    {
+                        "contentType": "heading",
+                        "text": "Heading H3",
+                        "variant": "h3"
+                    },
+                    {
+                        "contentType": "heading",
+                        "text": "Heading H4",
+                        "variant": "h4"
+                    },
+                    {
+                        "contentType": "heading",
+                        "text": "Heading H5",
+                        "variant": "h5"
+                    },
+                    {
+                        "contentType": "heading",
+                        "text": "Heading H6",
+                        "variant": "h6"
+                    }
+                ]
+            }
+        ]
+    }
+}
